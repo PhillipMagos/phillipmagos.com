@@ -13,7 +13,7 @@
 	}
 .navbar {
 	background-color: #243a5e;
-	height: 50px;
+	height: 60px;
 }
 	.nav {
 
@@ -74,6 +74,9 @@
 	padding-right: 15px;
 	}
 */
+main {
+	margin-top: 20px;
+}
 
 body {
 background-color:#2f2f2f;
@@ -138,7 +141,7 @@ color:#fff;
 }
 
 h3 {
-	color: azure;
+	color: #e6e6e6;
 }
 .portpics {
 	width: 170px;
@@ -146,7 +149,7 @@ h3 {
 	}
 .grid_sites {
 	background-color: #171717;
-	color: azure;
+	color: #e6e6e6;
 	padding: 15px;
 	/*border: solid;*/
 }
@@ -198,7 +201,7 @@ h3 {
 .real {
 	display: grid;
 	grid-area: real;
-	justify-self: left;
+	justify-self: center;
 	color: #75b6e7;
 	/*border: solid;*/
 }
@@ -206,7 +209,7 @@ h3 {
 .mock {
 	grid-area: mock;
 	display: grid;
-	justify-content: left;
+	justify-content: center;
 	color: #75b6e7;
 
 	/*border: solid;*/
