@@ -5,13 +5,18 @@
 }
 .welcome {
 	border-style: ;
+	height: 40px;
 	width:80%;
 	margin: auto;
 	overflow: hidden;
 	margin-top: 20px;
 	}
-
+.navbar {
+	background-color: #243a5e;
+	height: 50px;
+}
 	.nav {
+
 		list-style: none;
 		display: grid;
 		grid-template-columns: repeat(4, 75px);
@@ -21,7 +26,9 @@
 		margin-top: 10px;
 		margin-left: 10%;
 	}
-
+	.nav li a {
+		color: white;
+	}
 	
 	/*
 	#navbar {
@@ -69,9 +76,8 @@
 */
 
 body {
-border-style: solid;
-background-color:#f4f4f4;
-color:black;
+background-color:#2f2f2f;
+color:white;
 height: 100vh;
 font-family: Arial, Helvetica, sans-serif;
 font-size: 16px;
@@ -102,7 +108,7 @@ footer {
 }
 /*Footer*/
 footer {
-	background: #333;
+	background: #171717;
 	color:#fff;
 	text-align: center;
 	bottom: 0px;
@@ -110,14 +116,15 @@ footer {
 	}
 
 #main-header{
-background-color:#333;
+background-color:#171717;
 color:#fff;
 }
 .sites {
 	font-size: 20px;
 	min-height: auto;
 	width:100%;
-	background: LightGray;
+
+	color:azure;
 	display: grid;
 	align-items: center;
 	grid-template-areas:
@@ -125,61 +132,85 @@ color:#fff;
 	'site1 site2 site3'
 	'mock mock mock'
 	'site4 site5 site6';
-	grid-template-columns: 2fr 2fr 2fr;
+	grid-template-columns: 1fr 1fr 1fr;
 	grid-template-rows: 30px 1fr 30px 1fr;
-	gap: 5px;
+	gap: 15px;
+}
+
+h3 {
+	color: azure;
 }
 .portpics {
 	width: 170px;
 	height: 120px;
 	}
+.grid_sites {
+	background-color: #171717;
+	color: azure;
+	padding: 15px;
+	/*border: solid;*/
+}
 .site1 {
 	grid-area: site1;
 	display: grid;
-	justify-content: center;
+	justify-content: left;
+	color: #75b6e7;
+	/*border: solid;*/
 }
 .site2 {
 	grid-area: site2;
 	display: grid;
-	justify-content: center;
+	justify-content: left;
+	color: #75b6e7;
+	/*border: solid;*/
 }
 .site3 {
 	grid-area: site3;
 	display: grid;
-	justify-content: center;
+	justify-content: left;
+	color: #75b6e7;
+	/*border: solid;*/
 }
-
 .site4 {
 	grid-area: site4;
 	display: grid;
-	justify-content: center;
+	justify-content: left;
+	color: #75b6e7;
+	/*border: solid;*/
 }
-
 .site5 {
 	grid-area: site5;
 	display: grid;
-	justify-content: center;
+	justify-content: left;
+	color: #75b6e7;
+	/*border: solid;*/
 }
 
 .site6 {
 	grid-area: site6;
 	display: grid;
-	justify-content: center;
+	justify-content: left;
+	color: #75b6e7;
+
+	/*border: solid;*/
 }
 
 .real {
 	display: grid;
 	grid-area: real;
-	justify-self: center;
+	justify-self: left;
+	color: #75b6e7;
+	/*border: solid;*/
 }
 
 .mock {
 	grid-area: mock;
 	display: grid;
-	justify-content: center;
+	justify-content: left;
+	color: #75b6e7;
+
+	/*border: solid;*/
 }
-
-
 
 @media(max-width:600px){
 #main{
