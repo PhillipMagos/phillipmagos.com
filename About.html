@@ -6,49 +6,42 @@
 </head>
 <body>
 	<header id="main-header">
-		<div class="container">
-			<h1>Welcome</h1>
+		<div class="welcome">
+			<h1>Phillip Magos | About</h1>
 		</div>
-	</header>
-
-	<nav id="navbar">
-		<div class="container">
-			<ul>
-				<li><a href="index.html">Home</a></li>
-				<li><a href="About.html">About</a></li>
-				<li><a href="Resume.html">Resume</a></li>
-				<li><a href="Projects.html">Projects</a></li>
-				<li><a href="Contact.html">Contact</a></li>
+		<nav class="navbar"> <!--NEW-->
+			<ul class="nav">
+					<li><a id="home" href="index.html">Home</a></li>
+					<li><a id="about" href="About.html">About</a></li>
+					<li><a id="projects" href="Projects.html">Projects</a></li>
+					<li><a id="contact" href="Contact.html">Contact</a></li>
 			</ul>
-		</div>
-	</nav>
+		</nav>
+	</header>
+	<!--End of header-->
+<main class="">
+<br>
 
-	<section id="showcase">
-		<div class="container">
-			<h1>Phillip Magos</h1>
-		</div>
-	</section>
-
-	<div class="container">
-		<section id="main">
-			<h1>Summary</h1>
-			<p>I’ve worked in the IT industry for over 8 years. Started from working as onsite support for my college’s IT department to providing level 1 and 2 support at Dell Technologies 
-				As an experienced IT support technician, I can offer a wide range of IT services to resolve business and consumer related issues. These services include  hardware, software and network support across commonly used devices ranging from Windows PC, Macbooks, android and iphones devices.
-				</p>
+	<div class="about_grid">
+		<section class="frontEnd">
+			<p class="">I’ve worked in the IT industry for over 8 years. Started from working as onsite support for my college’s IT department to providing level 1 and 2 support at Dell Technologies 
+				As an experienced IT support technician, I can offer a wide range of IT services to resolve business and consumer related issues. These services include  hardware, software and network support across commonly used devices ranging from Windows PC, Macbooks, android and iphones devices.</p>		
 		</section>
-		<aside id="sidebar">
-			<form action="index.html">
-				<label for="fullname">Full Name <input class="about_sb" type="text" placeholder="Full Name" required></label>
-				<br>
-				<label for="email">Email  <input class="about_sb" type="email" placeholder="Email" required></label>
-				<br>
-				<textarea name="ta" id="ta" cols="30" rows="10" required placeholder="Feedback or inquiry"></textarea>
-				<br>
-				<button type="submit">Submit</button>
-			</form>
-		</aside>
+		<img class="frontEndimg" src="WebDev.jpg" alt="WebDev Image">
+		<article class="ITLead">
+			<p>I’ve worked in the IT industry for over 8 years. Started from working as onsite support for my college’s IT department to providing level 1 and 2 support at Dell Technologies 
+				As an experienced IT support technician, I can offer a wide range of IT services to resolve business and consumer related issues. These services include  hardware, software and network support across commonly used devices ranging from Windows PC, Macbooks, android and iphones devices.</p>
+		</article>
+		<img class="SWK" src="swk.jpg" alt="RR1 Building">
+		<article class="IT">
+			<p>I’ve worked in the IT industry for over 8 years. Started from working as onsite support for my college’s IT department to providing level 1 and 2 support at Dell Technologies 
+				As an experienced IT support technician, I can offer a wide range of IT services to resolve business and consumer related issues. These services include  hardware, software and network support across commonly used devices ranging from Windows PC, Macbooks, android and iphones devices.</p>
+		</article>
+		<img class="RR1" src="RR1_Dell_Campus.jpg" alt="RR1 Building">
 	</div>
-
+	<div class="asideLeft"></div>
+<div class="asideRight"></div>
+</main>
 	<footer id="main-footer">
 		<p>Copyright &copy; <script>document.write(new Date().getFullYear());</script>, phillipmagos.com</p>
 	</footer>

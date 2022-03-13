@@ -20,14 +20,21 @@
 		list-style: none;
 		display: grid;
 		grid-template-columns: repeat(4, 75px);
-		gap: 5px;
+		gap: 10px;
 		justify-content: start;
 		justify-items: center;
+
 		margin-top: 10px;
 		margin-left: 10%;
 	}
 	.nav li a {
 		color: white;
+		font-weight: 500;
+		text-decoration: none;
+		font-size: 18px;
+		display: grid;
+		align-items: center;
+		
 	}
 	
 	/*
@@ -109,6 +116,52 @@ main {
 footer {
 	grid-area: footer;
 }
+
+.about_grid {
+	font-size: 20px;
+	min-height: auto;
+	width:100%;
+	max-height: 100%;
+	color:azure;
+	display: grid;
+	align-items: center;
+	grid-template-areas:
+	'frontEndimg frontEnd'
+	'ITLead SWK'
+	'RR1 IT';
+	grid-template-columns: 2fr 2fr;
+	grid-template-rows: 1fr 1fr 1fr;
+	gap: 5px;
+}
+.frontEnd {
+	border: ;
+	background-color: #;
+	grid-area: frontEnd;
+	max-width: 100%;
+	max-height: 100%;
+}
+.frontEndimg {
+	border: solid;
+	grid-area: frontEndimg;
+	max-width: 100%;
+	max-height: 100%;
+}
+.ITLead {
+	grid-area: ITLead;
+}
+.SWK {
+	grid-area: SWK;
+	max-width: 600px;
+	max-height: 600px;
+}
+.IT {
+	grid-area: IT;
+}
+.RR1 {
+	grid-area: RR1;
+	max-width: 100%;
+	max-height: 100%;
+}
 /*Footer*/
 footer {
 	background: #171717;
@@ -126,7 +179,6 @@ color:#fff;
 	font-size: 20px;
 	min-height: auto;
 	width:100%;
-
 	color:azure;
 	display: grid;
 	align-items: center;
@@ -142,6 +194,7 @@ color:#fff;
 
 h3 {
 	color: #e6e6e6;
+	text-decoration: none;
 }
 .portpics {
 	width: 170px;
