@@ -20,7 +20,7 @@
 		list-style: none;
 		display: grid;
 		grid-template-columns: repeat(4, 75px);
-		gap: 50px;
+		gap: 50px 50px;
 		justify-content: start;
 		justify-items: center;
 
@@ -210,7 +210,10 @@ h3 {
 .portpics {
 	width: 170px;
 	height: 120px;
-	}
+}
+.portpics:hover {
+	opacity: 0.5;
+}
 .grid_sites {
 	background-color: #171717;
 	color: #e6e6e6;
