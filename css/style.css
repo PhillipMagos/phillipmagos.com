@@ -20,7 +20,7 @@
 		list-style: none;
 		display: grid;
 		grid-template-columns: repeat(4, 75px);
-		gap: 10px;
+		gap: 50px;
 		justify-content: start;
 		justify-items: center;
 
@@ -203,7 +203,6 @@ color:#fff;
 	grid-template-rows: 30px 1fr 30px 1fr;
 	gap: 15px;
 }
-
 h3 {
 	color: #e6e6e6;
 	text-decoration: none;
@@ -218,9 +217,13 @@ h3 {
 	padding: 15px;
 	/*border: solid;*/
 }
+
+/*Websites Portfolio*/
 .grid_sites a {
 	transition: all 0.3s ease 0s;
 	text-decoration: none;
+	max-width: 100%;
+	border: ;
 }
 .grid_sites a:hover {
 	text-decoration: underline;
