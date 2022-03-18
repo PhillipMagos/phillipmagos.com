@@ -11,6 +11,7 @@
 	overflow: hidden;
 	margin-top: 20px;
 	}
+/*Above is nominal*/
 .navbar {
 	background-color: #243a5e;
 	height: 60px;
@@ -41,19 +42,6 @@
 		color: grey;
 		/*text-decoration: underline;*/
 	}
-
-	/*
-	#navbar {
-		background-color: #000080;
-		color: #fff;
-		font-size: 20px;
-		display: grid;
-		grid-template-areas: 
-		'home about projects contact';
-		grid-template-columns: 1fr 1fr 1fr 1fr;
-		grid-template-rows:  80px 1fr 70px;
-	}
-	*/
 	#home {
 		grid-area: home;
 	}
@@ -66,28 +54,9 @@
 	#contact {
 		grid-area: contact;
 	}
-/*	
 
-#navbar{
-	background-color:#000080;
-	color:#fff;
-	}
-	#navbar ul{
-	padding:0;
-	list-style: none;
-	}
-	#navbar li{
-	display: inline;
-	}
-	#navbar a{
-	color:#fff;
-	text-decoration: none;
-	font-size: 18px;
-	padding-right: 15px;
-	}
-*/
 main {
-	margin-top: 20px;
+	margin-top: 40px;
 }
 
 body {
@@ -293,6 +262,18 @@ h3 {
 	/*border: solid;*/
 }
 
+/*Contact Page*/
+.sub-form {
+	border:;
+
+	background-color:#171717;
+}
+.contact-form {
+	display: grid;
+
+	max-width: 100%;
+}
+/*End of Contact Page*/
 @media(max-width:600px){
 #main{
 	width:100%;
