@@ -12,19 +12,24 @@
 	margin-top: 20px;
 	}
 /*Above is nominal*/
+header {
+	border: ;
+}
 .navbar {
+	border: ;
 	background-color: #243a5e;
 	height: 60px;
+	
 }
 	.nav {
-
+		border: ;
 		list-style: none;
 		display: grid;
-		grid-template-columns: repeat(4, 75px);
+		grid-template-columns: repeat(5, 75px); /*Change to flex*/
 		gap: 50px 50px;
 		justify-content: start;
-		justify-items: center;
-
+		justify-items: ;
+		align-items: center; /*Doesn't work.*/
 		margin-top: 10px;
 		margin-left: 10%;
 	}
@@ -32,9 +37,8 @@
 		color: white;
 		font-weight: 500;
 		text-decoration: none;
-		font-size: 18px;
-		display: grid;
-		align-items: center;
+		font-size: ;
+
 		transition: all 0.3s ease 0s;
 	}
 	
@@ -147,11 +151,17 @@ footer {
 footer {
 	background: #171717;
 	color:#fff;
-	text-align: center;
+	display: flex;
+	text-align: 
 	bottom: 0px;
 	left: 0px;
 	}
-
+.main-footer {
+	display: flex;
+	align-items: center; /*Aligns vertically.*/
+	justify-content: center; /*Aligns horizontally.*/
+}	
+/*End of Footer*/
 #main-header{
 background-color:#171717;
 color:#fff;
