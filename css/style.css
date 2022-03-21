@@ -10,28 +10,40 @@
 	margin: auto;
 	overflow: hidden;
 	margin-top: 20px;
+	margin-left: 17%;
 	}
 /*Above is nominal*/
+#main-header{
+	background-color:#171717;
+	color:#fff;
+	}
 header {
 	border: ;
 }
 .navbar {
 	border: ;
 	background-color: #243a5e;
-	height: 60px;
-	
+	margin: 20px 0px 20px 0px;
+	padding: 20px 0px 20px 0px;
 }
 	.nav {
 		border: ;
 		list-style: none;
-		display: grid;
-		grid-template-columns: repeat(5, 75px); /*Change to flex*/
-		gap: 50px 50px;
+		display: flex;
+		gap: 30px;
+		align-items: center; /*Aligns vertically.*/
+		justify-content: flex-start; /*Aligns horizontally.*/
+		margin-left: 17%; /*320px can work but only for limited displays.*/
+		/*margin-top: 10px;
+		margin-left: 10%;*/
+		/*
+		display: grid;*/
+		/*grid-template-columns: repeat(5, 75px); /*Change to flex*/
+		/*gap: 50px 50px;
 		justify-content: start;
 		justify-items: ;
 		align-items: center; /*Doesn't work.*/
-		margin-top: 10px;
-		margin-left: 10%;
+		*/
 	}
 	.nav li a {
 		color: white;
@@ -162,10 +174,7 @@ footer {
 	justify-content: center; /*Aligns horizontally.*/
 }	
 /*End of Footer*/
-#main-header{
-background-color:#171717;
-color:#fff;
-}
+
 .sites {
 	font-size: 20px;
 	min-height: auto;
