@@ -1,3 +1,4 @@
+/***********************Default Template********************************/
 * {
 	box-sizing: border-box;
 	padding: 0;
@@ -98,8 +99,93 @@ main {
 footer {
 	grid-area: footer;
 }
+/*Footer*/
+footer {
+	background: #171717;
+	color:#fff;
+	display: flex;
+	text-align: 
+	bottom: 0px;
+	left: 0px;
+	}
+.main-footer {
+	display: flex;
+	align-items: center; /*Aligns vertically.*/
+	justify-content: center; /*Aligns horizontally.*/
+}	
+/*End of Footer*/
+/***********************Default Template********************************/
 
-/*About Page*/
+/************************************Home Page*****************************************/
+/*Websites Portfolio*/
+.grid_sites a {
+	transition: all 0.3s ease 0s;
+	text-decoration: none;
+	max-width: 100%;
+	border: ;
+}
+.grid_sites a:hover {
+	text-decoration: underline;
+}
+.site1 {
+	grid-area: site1;
+	display: grid;
+	justify-content: left;
+	color: #75b6e7;
+	/*border: solid;*/
+}
+.site2 {
+	grid-area: site2;
+	display: grid;
+	justify-content: left;
+	color: #75b6e7;
+	/*border: solid;*/
+}
+.site3 {
+	grid-area: site3;
+	display: grid;
+	justify-content: left;
+	color: #75b6e7;
+	/*border: solid;*/
+}
+.site4 {
+	grid-area: site4;
+	display: grid;
+	justify-content: left;
+	color: #75b6e7;
+	/*border: solid;*/
+}
+.site5 {
+	grid-area: site5;
+	display: grid;
+	justify-content: left;
+	color: #75b6e7;
+	/*border: solid;*/
+}
+.site6 {
+	grid-area: site6;
+	display: grid;
+	justify-content: left;
+	color: #75b6e7;
+
+	/*border: solid;*/
+}
+.real {
+	display: grid;
+	grid-area: real;
+	justify-self: center;
+	color: #75b6e7;
+	/*border: solid;*/
+}
+.mock {
+	grid-area: mock;
+	display: grid;
+	justify-content: center;
+	color: #75b6e7;
+	/*border: solid;*/
+}
+/************************************End of Home Page*****************************************/
+/***********************About Page/***********************/
 .about_grid {
 	font-size: 20px;
 	min-height: auto;
@@ -151,21 +237,7 @@ footer {
 	border-radius: 10%;
 	border: solid;
 }
-/*Footer*/
-footer {
-	background: #171717;
-	color:#fff;
-	display: flex;
-	text-align: 
-	bottom: 0px;
-	left: 0px;
-	}
-.main-footer {
-	display: flex;
-	align-items: center; /*Aligns vertically.*/
-	justify-content: center; /*Aligns horizontally.*/
-}	
-/*End of Footer*/
+
 
 .sites {
 	font-size: 20px;
@@ -200,88 +272,14 @@ h3 {
 	padding: 15px;
 	/*border: solid;*/
 }
-
-/*Websites Portfolio*/
-.grid_sites a {
-	transition: all 0.3s ease 0s;
-	text-decoration: none;
-	max-width: 100%;
-	border: ;
-}
-.grid_sites a:hover {
-	text-decoration: underline;
-}
-.site1 {
-	grid-area: site1;
-	display: grid;
-	justify-content: left;
-	color: #75b6e7;
-	/*border: solid;*/
-}
-.site2 {
-	grid-area: site2;
-	display: grid;
-	justify-content: left;
-	color: #75b6e7;
-	/*border: solid;*/
-}
-.site3 {
-	grid-area: site3;
-	display: grid;
-	justify-content: left;
-	color: #75b6e7;
-	/*border: solid;*/
-}
-.site4 {
-	grid-area: site4;
-	display: grid;
-	justify-content: left;
-	color: #75b6e7;
-	/*border: solid;*/
-}
-.site5 {
-	grid-area: site5;
-	display: grid;
-	justify-content: left;
-	color: #75b6e7;
-	/*border: solid;*/
-}
-
-.site6 {
-	grid-area: site6;
-	display: grid;
-	justify-content: left;
-	color: #75b6e7;
-
-	/*border: solid;*/
-}
-
-.real {
-	display: grid;
-	grid-area: real;
-	justify-self: center;
-	color: #75b6e7;
-	/*border: solid;*/
-}
-
-.mock {
-	grid-area: mock;
-	display: grid;
-	justify-content: center;
-	color: #75b6e7;
-
-	/*border: solid;*/
-}
-
+/***********************End of About Page/***********************/
 /*Contact Page*/
 .sub-form {
 	border:;
-
 	background-color:#171717;
 }
 .contact-form {
 	display: grid;
-
 	max-width: 100%;
 }
 /*End of Contact Page*/
