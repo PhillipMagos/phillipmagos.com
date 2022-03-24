@@ -45,25 +45,11 @@ header {
 		font-size: ;
 
 		transition: all 0.3s ease 0s;
-	}
-	
+	}	
 	.nav li a:hover {
 		color: grey;
 		/*text-decoration: underline;*/
 	}
-	#home {
-		grid-area: home;
-	}
-	#about {
-		grid-area: about;
-	}
-	#projects {
-		grid-area: projects;
-	}
-	#contact {
-		grid-area: contact;
-	}
-
 main {
 	margin-top: 40px;
 }
@@ -104,7 +90,7 @@ footer {
 	background: #171717;
 	color:#fff;
 	display: flex;
-	text-align: 
+	text-align: ;
 	bottom: 0px;
 	left: 0px;
 	}
@@ -114,10 +100,43 @@ footer {
 	justify-content: center; /*Aligns horizontally.*/
 }	
 /*End of Footer*/
-/***********************Default Template********************************/
+/***********************End of Default Template********************************/
 
 /************************************Home Page*****************************************/
 /*Websites Portfolio*/
+.sites {
+	font-size: 20px;
+	min-height: auto;
+	width:100%;
+	color:azure;
+	display: grid;
+	align-items: center;
+	grid-template-areas:
+	'real real real' 
+	'site1 site2 site3'
+	'mock mock mock'
+	'site4 site5 site6';
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 30px 1fr 30px 1fr;
+	gap: 15px;
+}
+h3 {
+	color: #e6e6e6;
+	text-decoration: none;
+}
+.portpics {
+	width: 170px;
+	height: 120px;
+}
+.portpics:hover {
+	opacity: 0.5;
+}
+.grid_sites {
+	background-color: #171717;
+	color: #e6e6e6;
+	padding: 15px;
+	/*border: solid;*/
+}
 .grid_sites a {
 	transition: all 0.3s ease 0s;
 	text-decoration: none;
@@ -184,8 +203,9 @@ footer {
 	color: #75b6e7;
 	/*border: solid;*/
 }
+
 /************************************End of Home Page*****************************************/
-/***********************About Page/***********************/
+/************************************About Page************************************/
 .about_grid {
 	font-size: 20px;
 	min-height: auto;
@@ -239,41 +259,9 @@ footer {
 }
 
 
-.sites {
-	font-size: 20px;
-	min-height: auto;
-	width:100%;
-	color:azure;
-	display: grid;
-	align-items: center;
-	grid-template-areas:
-	'real real real' 
-	'site1 site2 site3'
-	'mock mock mock'
-	'site4 site5 site6';
-	grid-template-columns: 1fr 1fr 1fr;
-	grid-template-rows: 30px 1fr 30px 1fr;
-	gap: 15px;
-}
-h3 {
-	color: #e6e6e6;
-	text-decoration: none;
-}
-.portpics {
-	width: 170px;
-	height: 120px;
-}
-.portpics:hover {
-	opacity: 0.5;
-}
-.grid_sites {
-	background-color: #171717;
-	color: #e6e6e6;
-	padding: 15px;
-	/*border: solid;*/
-}
-/***********************End of About Page/***********************/
-/*Contact Page*/
+
+/************************************End of About Page************************************/
+/************************************Contact Page************************************/
 .sub-form {
 	border:;
 	background-color:#171717;
@@ -282,7 +270,7 @@ h3 {
 	display: grid;
 	max-width: 100%;
 }
-/*End of Contact Page*/
+/************************************End of Contact Page************************************/
 @media(max-width:600px){
 #main{
 	width:100%;
