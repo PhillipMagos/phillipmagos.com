@@ -44,7 +44,6 @@ header {
 	.nav li a {
 		border: ;
 		color: white;
-
 		font-weight: bold;
 		font-size: 1.4em;
 		font-family: Arial, Helvetica, sans-serif;
@@ -71,6 +70,10 @@ header {
 	background-color: #171717;
 	color:#243a5e;
 	padding-top: 20px;
+	border-left: 5px;
+	border-right: 5px;
+	padding-right: 5px;
+	padding-left: 5px;
 /*	padding: 12px 16px;*/
 }
 
@@ -187,6 +190,53 @@ h3 {
 	padding: 15px;
 	/*border: solid;*/
 }
+/*Hover over port pics*/
+.portpics {
+	position: relative;
+	padding: 0;
+width: 170px;
+height: 120px;
+	display: block;
+	cursor: pointer;
+	overflow: hidden;
+}
+.content-text {
+	opacity: 0;
+	font-size: 18px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	color: #1c87c9;
+	background-color: rgba(200, 200, 200, 0.5);
+	width: 170px;
+	height: 120px;
+	-webkit-transition: all 400ms ease-out;
+	-moz-transition: all 400ms ease-out;
+	-o-transition: all 400ms ease-out;
+	-ms-transition: all 400ms ease-out;
+	transition: all 400ms ease-out;
+	text-align: center;
+}
+.portpics .content-text:hover {
+	opacity: 1;
+	color: ;
+}
+
+.portpics .content-text .text {
+	height: 0;
+	opacity: 1;
+	transition-delay: 0s;
+	transition-duration: 0.4s;
+	color: black;
+	font-weight: bold;
+}
+.portpics .content-text:hover .text {
+	opacity: 1;
+	transform: translateY(50px);
+	-webkit-transform: translateY(50px);
+}
+
+/*End of HOver over Port Pics*/
 .grid_sites a {
 	transition: all 0.3s ease 0s;
 	text-decoration: none;
