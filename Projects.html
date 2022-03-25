@@ -4,6 +4,7 @@
 	<title>Home</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
+<!--Add a drop down box for "Javascriptt projects, CSS Projects, Python Projects"-->
 <!--Body Tag Begins Here-->
 <body>
 	<header id="main-header">
@@ -12,11 +13,17 @@
 		</div>
 		<nav class="navbar"> <!--NEW-->
 			<ul class="nav">
-				<li><a id="home" href="index.html"><h2>Home</h2></a></li>
-				<li><a id="about" href="About.html"><h2>About</h2></a></li>
-				<li><a id="projects" href="Projects.html"><h2>Projects</h2></a></li>
-				<li><a id="contact" href="Contact.html"><h2>Contact</h2></a></li>
-		</ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="About.html">About</a></li>
+					<li class="dropdown"><a href="Projects.html" id="dropbtn">Projects</a>
+            <div class="dropdown-content">
+            <a href="cssproject.html">CSS Projects</a>
+            <a href="jsproject.html">Javascript Projects</a>
+            <a href="pyproject.html">Python Projects</a>
+          </div>
+          </li>
+					<li><a id="" href="Contact.html">Contact</a></li>
+			</ul>
 		</nav>
 	</header>
 	<!--End of header-->

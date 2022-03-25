@@ -26,11 +26,14 @@ header {
 .navbar {
 	border: ;
 	background-color: #243a5e;
-	margin: 20px 0px 20px 0px;
-	padding: 20px 0px 20px 0px;
+	/*margin: 20px 0px 20px 0px;
+	padding: 20px 0px 20px 0px;*/
 }
 	.nav {
 		border: ;
+		padding: 20px 0px 20px 0px;
+
+		background-color: #243a5e;
 		list-style: none;
 		display: flex;
 		gap: 30px;
@@ -39,17 +42,64 @@ header {
 		margin-left: 17%; /*320px can work but only for limited displays.*/
 	}
 	.nav li a {
+		border: ;
 		color: white;
-		font-weight: 500;
+
+		font-weight: bold;
+		font-size: 1.4em;
+		font-family: Arial, Helvetica, sans-serif;
 		text-decoration: none;
 		font-size: ;
-
 		transition: all 0.3s ease 0s;
 	}	
 	.nav li a:hover {
 		color: grey;
 		/*text-decoration: underline;*/
 	}
+/***********Drop down******************/           /***********Drop down******************/
+
+
+
+.dropdown:hover {
+	background-color: #171717;
+	opacity: 0.9;
+	border-top: 20px;
+
+}
+
+#dropbtn:hover {
+	background-color: #171717;
+	color:#243a5e;
+	padding-top: 20px;
+/*	padding: 12px 16px;*/
+}
+
+	
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #171717;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+}
+	
+.dropdown-content a {
+	color: red;/*not working*/
+	padding: 12px 16px;
+	font-size: 5px; /*not working*/
+	text-decoration: none;
+	display: block;
+	text-align: left;
+}
+	
+
+	
+	.dropdown:hover .dropdown-content {
+		display: block;
+	}
+
+	/***********Drop down******************/						/***********Drop down******************/
 main {
 	margin-top: 40px;
 }
