@@ -54,6 +54,7 @@ header {
 		color: grey;
 		/*text-decoration: underline;*/
 	}
+
 	.social {
 		border: dotted;
 		list-style: none;
@@ -65,18 +66,17 @@ header {
 	}
 	.social li {
 		display: ;
-
 	}
 	.social li a {
 		text-decoration: ; /*Consider deleting*/
 		display: ;
-
 	}
 	.social-logos {
 		width: 20px;
 		height: 20px;
 	}
-/***********Drop down******************/           /***********Drop down******************/
+
+/***********Drop down Begins******************/           /***********Drop down Begins******************/
 
 
 
@@ -123,7 +123,7 @@ header {
 		display: block;
 	}
 
-	/***********Drop down******************/						/***********Drop down******************/
+	/***********Drop down Ends******************/						/***********Drop down Ends******************/
 main {
 	margin-top: 40px;
 }
