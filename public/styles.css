@@ -4,8 +4,7 @@
 	padding: 0;
 	margin: 0;
 }
-
-/* .welcome {
+.welcome {
 	border-style: ;
 	height: 40px;
 	width:80%;
@@ -17,7 +16,6 @@
 	margin-left: 17%;
 	}
 /*Above is nominal*/
-/*
 #main-header{
 	background-color:#171717;
 	color:#fff;
@@ -27,11 +25,11 @@ header {
 }
 .navbar {
 	border: ;
-	background-color: #243a5e; */
+	background-color: #243a5e;
 	/*margin: 20px 0px 20px 0px;
 	padding: 20px 0px 20px 0px;*/
 }
-	/* .nav {
+	.nav {
 		border: ;
 		padding: 20px 0px 20px 0px;
 		background-color: #243a5e;
@@ -39,9 +37,9 @@ header {
 		display: flex;
 		gap: 30px;
 		align-items: center; /*Aligns vertically.*/
-	/*	justify-content: flex-start; /*Aligns horizontally.*/
-		/*margin-left: 17%;*/ /*320px can work but only for limited displays.*/
-	/* }
+		justify-content: flex-start; /*Aligns horizontally.*/
+		margin-left: 17%; /*320px can work but only for limited displays.*/
+	}
 	.nav li a {
 		border: ;
 		color: white;
@@ -52,11 +50,11 @@ header {
 		font-size: ;
 		transition: all 0.3s ease 0s;
 	}	
-	.nav li a:hover { 
-		color: grey;*/
+	.nav li a:hover {
+		color: grey;
 		/*text-decoration: underline;*/
-	/*} */
-/* 
+	}
+
 	.social {
 		border: dotted;
 		list-style: none;
@@ -71,18 +69,18 @@ header {
 	}
 	.social li a {
 		text-decoration: ; /*Consider deleting*/
-	/*	display: ;
+		display: ;
 	}
 	.social-logos {
 		width: 20px;
 		height: 20px;
-	} */
+	}
 
 /***********Drop down Begins******************/           /***********Drop down Begins******************/
 
 
 
-/* .dropdown:hover {
+.dropdown:hover {
 	background-color: #171717;
 	opacity: 0.9;
 	border-top: 20px;
@@ -96,9 +94,9 @@ header {
 	border-left: 5px;
 	border-right: 5px;
 	padding-right: 5px;
-	padding-left: 5px; */
+	padding-left: 5px;
 /*	padding: 12px 16px;*/
-/* }
+}
 
 	
 .dropdown-content {
@@ -112,21 +110,21 @@ header {
 	
 .dropdown-content a {
 	color: red;/*not working*/
-/*	padding: 12px 16px;
+	padding: 12px 16px;
 	font-size: 5px; /*not working*/
-/*	text-decoration: none;
+	text-decoration: none;
 	display: block;
 	text-align: left;
 }
 	
-/*
+
 	
 	.dropdown:hover .dropdown-content {
 		display: block;
-	} */
+	}
 
 	/***********Drop down Ends******************/						/***********Drop down Ends******************/
-/* main {
+main {
 	margin-top: 40px;
 }
 
@@ -160,9 +158,9 @@ main {
 }
 footer {
 	grid-area: footer;
-} */
+}
 /*Footer*/
-/* footer {
+footer {
 	background: #171717;
 	color:#fff;
 	display: flex;
@@ -174,13 +172,13 @@ footer {
 	display: flex;
 	align-items: center; /*Aligns vertically.*/
 	justify-content: center; /*Aligns horizontally.*/
-}	 */
+}	
 /*End of Footer*/
 /***********************End of Default Template********************************/
 
 /************************************Home Page*****************************************/
 /*Websites Portfolio*/
-/* .sites {
+.sites {
 	font-size: 20px;
 	min-height: auto;
 	width:100%;
@@ -206,13 +204,13 @@ h3 {
 }
 .portpics:hover {
 	opacity: 0.5;
-} */
-/* .grid_sites {
+}
+.grid_sites {
 	background-color: #171717;
 	color: #e6e6e6;
 	padding: 15px;
 	/*border: solid;*/
-} */
+}
 /*Hover over port pics*/
 .portpics {
 	position: relative;
@@ -222,7 +220,7 @@ height: 120px;
 	display: block;
 	cursor: pointer;
 	overflow: hidden;
-} 
+}
 .content-text {
 	opacity: 0;
 	font-size: 18px;
@@ -257,10 +255,10 @@ height: 120px;
 	opacity: 1;
 	transform: translateY(50px);
 	-webkit-transform: translateY(50px);
-} */
-/*End of HOver over Port Pics*/
+}
 
-/* .grid_sites a {
+/*End of HOver over Port Pics*/
+.grid_sites a {
 	transition: all 0.3s ease 0s;
 	text-decoration: none;
 	max-width: 100%;
@@ -325,7 +323,7 @@ height: 120px;
 	justify-content: center;
 	color: #75b6e7;
 	/*border: solid;*/
-} */
+}
 
 /************************************End of Home Page*****************************************/
 /************************************About Page************************************/
@@ -408,23 +406,3 @@ padding:0 30px;
 box-sizing: border-box;
 }
 */
-
-/* footer, bootstrap */
-.b-example-divider {
-  height: 3rem;
-  background-color: rgba(0, 0, 0, .1);
-  border: solid rgba(0, 0, 0, .15);
-  border-width: 1px 0;
-  box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
-}
-
-.bi {
-  vertical-align: -.125em;
-  fill: currentColor;
-}
-/* sticky footer */
-.container {
-  width: auto;
-  max-width: 680px;
-  padding: 0 15px;
-}
