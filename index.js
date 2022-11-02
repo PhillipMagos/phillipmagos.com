@@ -19,12 +19,16 @@ app.get('/about', (req, res) => {
   res.render('about.ejs')
 })
 
-app.get('/projects', (req, res) => {
-  res.render('projects.ejs')
-})
-
 app.get('/contact', (req, res) => {
   res.render('contact.ejs')
+})
+
+app.get('/portfolio', (req, res) => {
+  res.render('portfolio.ejs')
+})
+
+app.get('/projects', (req, res) => {
+  res.render('projects.ejs')
 })
 
 const port = process.env.PORT || 3000
