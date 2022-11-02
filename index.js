@@ -27,8 +27,15 @@ app.get('/portfolio', (req, res) => {
   res.render('portfolio.ejs')
 })
 
+app.get('/blog', (req, res) => {
+  res.render('blog.ejs')
+})
+
 app.get('/projects', (req, res) => {
   res.render('projects.ejs')
+})
+app.get('/signin', (req, res) => {
+  res.render('signin.ejs')
 })
 
 const port = process.env.PORT || 3000
