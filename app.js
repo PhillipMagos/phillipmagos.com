@@ -1,3 +1,19 @@
+//
+
+const http = require('http')
+const hostname = '127.0.0.1';
+const port = 3000;
+
+const server = http.createServer((req, res) => {
+  res.statusCode = 200;
+  res.setHeader('Content-Type', 'text/plain');
+  res.end('Hello World! NodeJS \n');
+});
+
+
+
+// added from https://docs.cpanel.net/knowledge-base/web-services/how-to-install-a-node.js-application/#install-the-application
+
 const express = require('express');
 const app = express();
 const logger = require('morgan');
@@ -38,5 +54,11 @@ app.get('/signin', (req, res) => {
   res.render('signin.ejs')
 })
 
-const port = process.env.PORT || 3000
-app.listen(port, ()=> console.log(`web host on port ${port}`))
+//const port = process.env.PORT || 3000
+//app.listen(port, ()=> console.log(`web host on port ${port}`))
+
+// end of added from https://docs.cpanel.net/knowledge-base/web-services/how-to-install-a-node.js-application/#install-the-application
+server.listen(port, hostname, () => {
+  console.log(`Server running at http://${hostname}:${port}/`);
+});
+// end of app.js
