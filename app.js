@@ -1,14 +1,14 @@
 //
 
-const http = require('http')
-const hostname = '127.0.0.1';
-const port = 3000;
+// const http = require('http')
+// const hostname = '127.0.0.1';
+// const port = 3000;
 
-const server = http.createServer((req, res) => {
-  res.statusCode = 200;
-  res.setHeader('Content-Type', 'text/plain');
-  res.end('Hello World! NodeJS \n');
-});
+// const server = http.createServer((req, res) => {
+//   res.statusCode = 200;
+//   res.setHeader('Content-Type', 'text/plain');
+//   res.end('Hello World! NodeJS \n');
+// });
 
 
 
@@ -28,7 +28,7 @@ app.get('/', (req, res) => {
   res.redirect('/home')
 })
 app.get('/home', (req, res) => {
-  res.render('index.ejs')
+  res.render('home.ejs')
 })
 
 app.get('/about', (req, res) => {
@@ -58,7 +58,10 @@ app.get('/signin', (req, res) => {
 //app.listen(port, ()=> console.log(`web host on port ${port}`))
 
 // end of added from https://docs.cpanel.net/knowledge-base/web-services/how-to-install-a-node.js-application/#install-the-application
-server.listen(port, hostname, () => {
-  console.log(`Server running at http://${hostname}:${port}/`);
-});
+// server.listen(port, hostname, () => {
+//   console.log(`Server running at http://${hostname}:${port}/`);
+// });
+
+const port = process.env.PORT || 3000;
+app.listen(port, () => console.log(`512unes App listening on port ${port}`));
 // end of app.js
