@@ -54,6 +54,10 @@ app.get('/signin', (req, res) => {
   res.render('signin.ejs')
 })
 
+app.get('/checkout', (req, res) => {
+  res.render('checkout.ejs')
+})
+
 //const port = process.env.PORT || 3000
 //app.listen(port, ()=> console.log(`web host on port ${port}`))
 
