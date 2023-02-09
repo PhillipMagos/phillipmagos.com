@@ -1,0 +1,25 @@
+<%- include('partials/header.ejs') %>
+
+<div class="text-center">
+<h1>Southpark</h1>
+<h2>Characters</h2>
+</div>
+<div class="container text-center">
+    <a href="/"><button class="btn">Home</button></a>
+
+<div class="row justify-content-center">
+<!-- iterate through our  array of objects (aka: data) -->
+<% data.forEach(char => { %>
+
+    <%- include('partials/SPCard.ejs', {data: char}) %>
+
+<% }) %>
+</div>
+
+
+
+
+<!-- Close container -->
+</div>
+
+<%- include('partials/footer.ejs') %>
